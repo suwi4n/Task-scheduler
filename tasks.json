@@ -1,10 +1,10 @@
 [
   {
     "task_id": 1,
-    "command": "notepad.exe",
-    "args": [],
+    "command": "ping",
+    "args": ["-t", "8.8.8.8"],
     "trigger": {
-      "Interval": 60
+      "Interval": 1
     }
   }
 ]
