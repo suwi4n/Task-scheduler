@@ -1,0 +1,10 @@
+[
+  {
+    "task_id": 1,
+    "command": "notepad.exe",
+    "args": [],
+    "trigger": {
+      "Interval": 60
+    }
+  }
+]
