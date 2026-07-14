@@ -2,9 +2,30 @@
   {
     "task_id": 1,
     "command": "ping",
-    "args": ["-t", "8.8.8.8"],
+    "args": [
+      "-t",
+      "8.8.8.8"
+    ],
     "trigger": {
-      "Interval": 1
-    }
+      "Interval": 11
+    },
+    "next_run": "2026-07-14T11:50:14.467986900Z"
+  },
+  {
+    "task_id": 2,
+    "command": "ping",
+    "args": [
+      "-t",
+      "0.0.0.0"
+    ],
+    "trigger": "Once",
+    "next_run": "2026-07-14T11:50:14.467986900Z"
+  },
+  {
+    "task_id": 3,
+    "command": "сhrome.exe",
+    "args": [],
+    "trigger": "Once",
+    "next_run": "2026-07-14T11:50:14.467986900Z"
   }
 ]
